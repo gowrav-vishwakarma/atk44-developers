@@ -1,0 +1,9 @@
+{
+  "type":"project",
+  "minimum-stability": "dev",
+  "require":{
+        "php": ">=5.4",
+        "atk4\/data":"dev-develop as 1.0.0",
+        "atk4\/ui":"dev-develop"
+    }
+}
