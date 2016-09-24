@@ -13,3 +13,12 @@ there is test.sh script. To run any of atk4 test just
 ./test.sh ui
 ```
 Enjoy developing ATK 4.4
+
+## What is atk4
+
+Agile Toolkit is a Web UI framework and collection of usable widgets. It allows you to develop rich web applications by writing only PHP code. Agile Toolkit is inspired by Desktop GUI Toolkits and is a fully-object oriented development environment.
+
+    Homepage: http://agiletoolkit.org
+    Forums: http://forum.agiletoolkit.org
+    Docs: http://book.agiletoolkit.org
+	Github: https://github.com/atk4
