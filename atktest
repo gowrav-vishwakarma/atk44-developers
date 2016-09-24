@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+
+if [ -z "$1"]
+	then
+	echo "Please specify which atk component you want to test"
+	echo "for example"
+	echo "./test.sh core"
+	echo "or"
+	echo "./test.sh core AppScopeTraitTest"
+	exit
+fi
+
+rm -rf tests
+rm phpunit.xml
+cp -r vendor/atk4/$1/tests .
+cp vendor/atk4/$1/phpunit.xml .
+
+if [ -z "$2" ]
+	then
+		phpunit
+	else
+		phpunit tests/$2.php
+fi
