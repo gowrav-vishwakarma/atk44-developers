@@ -11,6 +11,7 @@ there is test.sh script. To run any of atk4 test just
 ```bash
 ./test.sh data
 ./test.sh ui
+./test.sh data MultiPersistenceTest // to run particular test
 ```
 Enjoy developing ATK 4.4
 
