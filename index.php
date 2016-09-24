@@ -1,3 +1,7 @@
 <?php
 
-// Base code to go with ATK 4.4. With UI and Without UI both 
+include 'vendor/autoload.php';
+
+$v= new atk4\ui\View('<h1>Hello</h1>');
+$v->render();
+echo $v->getHTML();
